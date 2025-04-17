@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quiz Analytics Dashboard
+
+A modern quiz analytics dashboard built with Next.js, featuring data visualization and responsive design.
+
+## Features
+
+- 📊 Interactive question analysis with circular progress chart
+- 🏆 User ranking and percentile statistics
+- 📈 Data visualization with MUI X Charts
+- 🎨 Styled with Tailwind CSS and Material UI
+- ✨ Modern UI with React Icons
+
+## Technologies Used
+
+- ⚛️ [Next.js](https://nextjs.org/) - React framework for server-side rendering
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- 🧩 [Material UI (MUI)](https://mui.com/) - React component library
+- 📈 [MUI X Charts](https://mui.com/x/react-charts/) - Data visualization components
+- ✨ [React Icons](https://react-icons.github.io/react-icons/) - Popular icon library
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (v18 or later recommended)
+- npm/yarn/pnpm/bun
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   terminal:
+   git clone https://github.com/your-username/quiz-analytics-dashboard.git
+   cd quiz-analytics-dashboard
+2. Install dependencies:
+   terminal:
+   npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   # or
 
-## Learn More
+  yarn install
 
-To learn more about Next.js, take a look at the following resources:
+  # or
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  pnpm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  # or
 
-## Deploy on Vercel
+  bun install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.Run the development server:
+  
+  terminal:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  npm run dev
+  # or
+  yarn dev
+  # or
+  pnpm dev
+  # or
+  bun dev
+
+4. Open http://localhost:3000 in your browser
+
+5. Project Structure
+
+ Key files and directories:
+
+ app/page.js - Main dashboard page
+
+ components/  - Reusable React components
+
+ ui-components/  - Reusable React components
+ 
+ styles/ - Global styles and Tailwind configuration
+
+ public/ - Static assets
+
+6. Customization
+
+ To modify the dashboard:
+
+ Update quiz data in app/page.js
+
+ Adjust styles in Tailwind config (tailwind.config.js)
+
+ Change chart configurations in the component files
+
+7. Deployment
+
+ The easiest way to deploy is using Vercel, the creators of Next.js:
