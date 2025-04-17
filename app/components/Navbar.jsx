@@ -24,7 +24,7 @@ function Navbar() {
         {/* Right: Avatar + Name */}
         <div className="flex items-center gap-2 border border-slate-200 rounded-md px-3 py-2 shrink-0 hover:bg-neutral-100 cursor-pointer hover:transition-all active:scale-95">
           <Avatar />
-          <p className="font-semibold text-sm sm:text-base">Rahil Siddique</p>
+          <p className="font-semibold text-sm sm:text-base hidden md:block">Rahil Siddique</p>
         </div>
       </div>
     </div>
